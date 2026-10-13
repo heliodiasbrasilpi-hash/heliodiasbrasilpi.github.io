@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="LOJA.CSS">
+</head>
+<body>
+   <!--Cabeçalho-->
+    <header class="Cabeçalho">
+        <div class="logo">
+            <img src="">
+        </div>
+        <!--Categorias-->
+        <h1 style="border-bottom: 100px red ;"></h1>
+            <nav class="menu">
+                <a href="#">CHUTEIRAS</a>
+                <a href="#">FUTSAL</a>
+                <a href="#">CAMISAS</a>
+                <a href="#">BOLAS</a>
+                <a href="#">OFERTAS</a>
+            </nav>
+    </header>
+    <!--Barra de pesquisa-->
+<section class="secao-busca">
+  <div class="busca-box">
+    <input type="text" placeholder="O que você está procurando?">
+  </div>
+</section>
+<!--Produtos com descontos-->
+    <div class="produtos">
+        <div class="produto">
+            <a href="" class="imagem">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9nm4d_VE_89n3iWuocc5xXoYKhLEwt6tL-9TlV3uj-Q&s" alt="Bump kintsugi">
+            </a>
+            <div class="desconto">-45% OFF</div> 
+            <div class="info">
+                <h3>Chuteira Futsal Umbro Pro 5 Bump Kintsugi</h3>
+                <div class="preco-antigo">R$749,99</div>
+                <div class="preco">
+                    <strong>R$337,50<small> No crédito</small></strong>
+                </div>
+            </div>
+            <div class="parcelamento">Ou 5x  de R$75,00</div>
+            <div class="Frete">Frete Grátis</div>
+            <button class="btn-carrinho">Adicionar ao Carrinho</button>
+            <div class="icone-carrinho">
+            <span id="contador">🛒0</span>
+        </div>
+        </div>
+        <div>
+            <div class="produto">
+                <a href="" class="imagem">
+                    <img src="data:image/jpeg;base64,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" alt="Camisa Flamengo ">
+                </a>
+                <div class="desconto">-10% OFF</div>
+            <div class="info">
+                <h3>Camisa do Flamengo 19/20</h3>
+                <div class="preco-antigo">R$ 999,99</div>
+                <div class="preco">
+                <strong>R$899,99<small> No Pix</small></strong>
+            </div>
+            </div>
+            <div class="parcelamento">Ou 15x de R$70,00</div>
+            <div class="Frete">Frete Grátis</div>
+            <button class="btn-carrinho">Adicionar ao Carrinho</button>
+            <div class="icone-carrinho"> 
+             🛒   <span id="contador">0</span>
+            </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<!--Cards-->
+<div class="categorias">
+    <div class="card">
+        <img src="corrida.jpg" alt="corrida">
+        <h2>CORRIDA</h2>
+        <a href="" class="btn-produtos">Ver produtos</a>
+    </div>
+    <div class="card">
+        <img src="nadadores.jpg" alt="natação">
+        <h2>NATAÇÃO</h2>
+        <a href="" class="btn-produtos">Ver produtos</a>
+    </div>
+    <div class="card">
+        <img src="BASQUETE.jpg" alt="basquete">
+         <h2>BASQUETE</h2>
+        <a href="" class="btn-produtos">Ver produtos</a>
+    </div>
+</div>
+</body>
+</html>
